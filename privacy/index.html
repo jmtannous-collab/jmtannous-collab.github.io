@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>InvoiceTracker privacy notice</title>
+<style>
+body{font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:46rem;margin:0 auto;padding:1.5rem 1rem 3rem;color:#1d1d1f;background:#fff}
+h1{font-size:1.6rem} h2{font-size:1.25rem;margin-top:2rem} h3{font-size:1.05rem;margin-top:1.5rem}
+code{font-size:.9em} nav{text-align:right;font-size:.9rem}
+@media (prefers-color-scheme:dark){body{color:#f5f5f7;background:#111} a{color:#6cb4ff}}
+</style>
+</head>
+<body>
+<nav><a href="/privacy/fr/" hreflang="fr">Français</a></nav>
+<h1>InvoiceTracker privacy notice</h1>
+<h2>1. Who we are and the person in charge</h2>
+<p>InvoiceTracker is an app for filing receipts and invoices and keeping them organised. This notice says what personal information the app handles, where it goes, why, and how to reach us about it.</p>
+<p>The person in charge of the protection of personal information is <strong>Jean Michel Tannous</strong>, reached at <strong>privacy@invoicetracker.app</strong>.</p>
+<h2>2. What we collect</h2>
+<ul>
+<li><strong>An account.</strong> The app signs you in anonymously the first time it launches, before you create an account, so that your data can be saved and synced. If you create an account, we also receive your email address and a password.</li>
+<li><strong>What you capture.</strong> The receipts, invoices, projects and notes you enter, and the images and thumbnails of your receipts. These sync to our servers so they follow you across devices.</li>
+<li><strong>Subscription data.</strong> Which plan you have, and the purchase information the app store holds for it.</li>
+<li><strong>Fault reports.</strong> Technical details when the app fails, tied to an opaque account identifier, and never your invoice content.</li>
+<li><strong>Usage statistics.</strong> Only if you say yes (see section 5).</li>
+</ul>
+<p>Every transfer uses an encrypted connection (TLS).</p>
+<h2>3. Where your data goes</h2>
+<p>Each destination below receives personal information for the reason given. Only analytics asks for your consent. The others are needed to run the service, so they are disclosed here and are not switched on or off by you. Sharing with other people is covered in section 4.</p>
+<h3>Supabase: sign-in, database, storage and server functions</h3>
+<ul>
+<li><strong>What it receives.</strong> Your email and password if you create an account, the anonymous identifier created at launch, every row you sync, and your receipt images and thumbnails.</li>
+<li><strong>Where.</strong> The data is kept in Montréal, Québec. Server functions and vendor support may run outside Québec.</li>
+<li><strong>Why.</strong> To run the service.</li>
+<li><strong>Basis.</strong> Service necessity.</li>
+</ul>
+<h3>Anthropic: reading a receipt</h3>
+<ul>
+<li><strong>What it receives.</strong> The image of the receipt being read, sent by our server, without your account identifier. It is transient: it is not kept.</li>
+<li><strong>Where.</strong> The United States.</li>
+<li><strong>Why.</strong> To read a receipt that no earlier reading step could read. It is used only when the on-device readers decline, and not when you are offline or over your quota.</li>
+<li><strong>Basis.</strong> Service necessity. Anthropic's terms bar it from training models on this content.</li>
+</ul>
+<h3>DeepInfra: a second receipt reader</h3>
+<ul>
+<li><strong>What it receives.</strong> The image of the receipt being read, sent by our server, without your account identifier. It is transient: it is not kept.</li>
+<li><strong>Where.</strong> The United States.</li>
+<li><strong>Why.</strong> To read a receipt that the on-device readers and Apple's Private Cloud Compute could not read.</li>
+<li><strong>Basis.</strong> Service necessity. DeepInfra states that it does not train on this content and, where offered, applies zero retention.</li>
+</ul>
+<h3>Apple Private Cloud Compute: a receipt reader built into Apple devices</h3>
+<ul>
+<li><strong>What it receives.</strong> A downscaled image of the receipt being read, with no product identifier. It is transient. This applies only in app versions that enable it.</li>
+<li><strong>Where.</strong> Apple does not state where it processes the data.</li>
+<li><strong>Why.</strong> To read a receipt that the on-device readers could not read.</li>
+<li><strong>Basis.</strong> Service necessity. It rests on Apple's published Private Cloud Compute guarantees.</li>
+</ul>
+<h3>Sentry: crash reports</h3>
+<ul>
+<li><strong>What it receives.</strong> Fault diagnostics linked to an opaque account identifier. No IP address and no invoice content.</li>
+<li><strong>Where.</strong> The United States.</li>
+<li><strong>Why.</strong> To keep the service working.</li>
+<li><strong>Basis.</strong> Service necessity. Crash reporting is not switched off from the app, because the service cannot find and fix failures without it.</li>
+</ul>
+<h3>PostHog: usage statistics</h3>
+<ul>
+<li><strong>What it receives.</strong> Only if you answer yes: counts of which features are used, under a device identifier and, once you are signed in, your account identifier, with your plan, your language and your IP address.</li>
+<li><strong>Where.</strong> The United States.</li>
+<li><strong>Why.</strong> To improve the app.</li>
+<li><strong>Basis.</strong> Your express consent, which is off until you give it.</li>
+</ul>
+<h3>RevenueCat: subscriptions</h3>
+<ul>
+<li><strong>What it receives.</strong> From launch: your app user identifier (the anonymous identifier until you sign up), the purchase data from the app store, data about your device and your IP address.</li>
+<li><strong>Where.</strong> The United States.</li>
+<li><strong>Why.</strong> To manage subscriptions and grant or withdraw a paid plan.</li>
+<li><strong>Basis.</strong> Service necessity. It is not switched off from the app, because the service cannot tell which plan you have without it.</li>
+</ul>
+<h3>Frankfurter: exchange rates</h3>
+<ul>
+<li><strong>What it receives.</strong> A currency pair and a date, sent by our server. Never personal information.</li>
+<li><strong>Where.</strong> Not stated; Frankfurter serves European Central Bank rates.</li>
+<li><strong>Why.</strong> To look up exchange rates.</li>
+<li><strong>Basis.</strong> None needed, because no personal information is involved.</li>
+</ul>
+<h2>4. People you share projects with</h2>
+<p>Other InvoiceTracker accounts are a destination too, when you choose to share a project with them.</p>
+<ul>
+<li><strong>What they receive.</strong> If you share a project, the people you share it with see your name, your email address and who captured each item (<code>created_by</code>), together with the shared rows. They are other InvoiceTracker accounts, wherever they are. They are chosen by the owner of the project, and they are not our processors.</li>
+<li><strong>Who answers for the data.</strong> The owner of the account that holds the data is the responsible organisation. InvoiceTracker is the processor.</li>
+<li><strong>If someone is removed.</strong> A removed person keeps their own account and Shoebox. What they filed into another account stays in that account's record, shown as "Former member".</li>
+<li><strong>Filing hands a receipt over.</strong> When you file a Shoebox receipt into someone else's project, you hand it to that account, and the app tells you when you file.</li>
+<li><strong>Deleting an account.</strong> Deleting an account erases what others filed into it.</li>
+<li><strong>No holding account.</strong> There is no holding account where your data waits.</li>
+</ul>
+<h2>5. Analytics consent and how to change it</h2>
+<p>Usage statistics are off until you say yes. The app asks once on first launch, with an equal choice between yes and no, and asks again only when this notice changes in a way that affects it. You can change your answer at any time in Settings &gt; Privacy. Turning it off stops all future collection from your device. Data already sent cannot be taken back. Saying no does not limit what the app does for you.</p>
+<p>Crash reporting and the core services in section 3 are not controlled by this choice. They are needed to run the service and are disclosed in this notice instead.</p>
+<h2>6. Retention and deletion</h2>
+<ul>
+<li><strong>Your data</strong> is kept while your account exists. Deleting your account (Settings &gt; Delete Account) erases the account's data on our servers and on your device.</li>
+<li><strong>What others filed into your account</strong> is erased with it.</li>
+<li><strong>Receipt images sent to be read</strong> are transient. They are never stored on our servers for this purpose and are not kept by the readers. Apple's Private Cloud Compute rests on Apple's published guarantees. DeepInfra applies no training and, where offered, zero retention.</li>
+<li><strong>Sentry, PostHog and RevenueCat</strong> keep the data they receive under their own retention terms, as recorded in our assessment of each.</li>
+</ul>
+<h2>7. Your rights and how to reach us</h2>
+<p>You may ask to see the personal information we hold about you, to have it corrected, to have it deleted, and to withdraw a consent you gave. Write to <strong>Jean Michel Tannous</strong> at <strong>privacy@invoicetracker.app</strong>. We reply within 30 days. If you are not satisfied, you may complain to the Commission d'accès à l'information du Québec.</p>
+<h2>8. Changes to this notice</h2>
+<p>When this notice changes in a way that matters to you, its version number goes up and the app shows the summary screen again once at your next launch.</p>
+<p>This is version 1 of the notice.</p>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avis de confidentialité d&#x27;InvoiceTracker</title>
+<style>
+body{font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:46rem;margin:0 auto;padding:1.5rem 1rem 3rem;color:#1d1d1f;background:#fff}
+h1{font-size:1.6rem} h2{font-size:1.25rem;margin-top:2rem} h3{font-size:1.05rem;margin-top:1.5rem}
+code{font-size:.9em} nav{text-align:right;font-size:.9rem}
+@media (prefers-color-scheme:dark){body{color:#f5f5f7;background:#111} a{color:#6cb4ff}}
+</style>
+</head>
+<body>
+<nav><a href="/privacy/" hreflang="en">English</a></nav>
+<h1>Avis de confidentialité d'InvoiceTracker</h1>
+<h2>1. Qui nous sommes et la personne responsable</h2>
+<p>InvoiceTracker est une application pour classer vos reçus et vos factures. Cet avis indique quels renseignements personnels l'application traite, où ils vont, pourquoi, et comment nous joindre à ce sujet.</p>
+<p>La personne responsable de la protection des renseignements personnels est <strong>Jean Michel Tannous</strong>, joignable à <strong>privacy@invoicetracker.app</strong>.</p>
+<h2>2. Ce que nous recueillons</h2>
+<ul>
+<li><strong>Un compte.</strong> Au premier lancement, l'application vous connecte de façon anonyme, avant même que vous créiez un compte, pour que vos données puissent être enregistrées et synchronisées. Si vous créez un compte, nous recevons aussi votre adresse courriel et un mot de passe.</li>
+<li><strong>Ce que vous saisissez.</strong> Les reçus, les factures, les projets et les notes que vous entrez, ainsi que les images et les miniatures de vos reçus. Ces données sont synchronisées avec nos serveurs pour vous suivre d'un appareil à l'autre.</li>
+<li><strong>Les données d'abonnement.</strong> Votre forfait et les renseignements d'achat que détient le magasin d'applications.</li>
+<li><strong>Les rapports d'erreur.</strong> Des détails techniques lorsque l'application plante, liés à un identifiant de compte opaque, jamais le contenu de vos factures.</li>
+<li><strong>Les statistiques d'utilisation.</strong> Seulement si vous répondez oui (voir la section 5).</li>
+</ul>
+<p>Chaque transfert utilise une connexion chiffrée (TLS).</p>
+<h2>3. Où vont vos données</h2>
+<p>Chaque destination ci-dessous reçoit des renseignements personnels pour la raison indiquée. Seules les statistiques d'utilisation demandent votre consentement. Les autres sont nécessaires au fonctionnement du service : elles sont donc divulguées ici et vous ne les activez ni ne les désactivez. Le partage avec d'autres personnes est traité à la section 4.</p>
+<h3>Supabase : connexion, base de données, stockage et fonctions serveur</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> Votre courriel et votre mot de passe si vous créez un compte, l'identifiant anonyme créé au lancement, toutes les lignes que vous synchronisez, ainsi que les images et les miniatures de vos reçus.</li>
+<li><strong>Où.</strong> Les données sont conservées à Montréal, au Québec. Les fonctions serveur et le soutien du fournisseur peuvent travailler depuis l'extérieur du Québec.</li>
+<li><strong>Pourquoi.</strong> Pour faire fonctionner le service.</li>
+<li><strong>Fondement.</strong> La nécessité du service.</li>
+</ul>
+<h3>Anthropic : lecture d'un reçu</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> L'image du reçu à lire, envoyée par notre serveur, sans votre identifiant de compte. Elle est transitoire : elle n'est pas conservée.</li>
+<li><strong>Où.</strong> Aux États-Unis.</li>
+<li><strong>Pourquoi.</strong> Pour lire un reçu qu'aucune étape de lecture précédente n'a pu lire. Il n'est utilisé que lorsque les lecteurs de l'appareil y renoncent, et pas hors ligne ni au-delà de votre quota.</li>
+<li><strong>Fondement.</strong> La nécessité du service. Les conditions d'Anthropic lui interdisent d'entraîner des modèles avec ce contenu.</li>
+</ul>
+<h3>DeepInfra : un deuxième lecteur de reçus</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> L'image du reçu à lire, envoyée par notre serveur, sans votre identifiant de compte. Elle est transitoire : elle n'est pas conservée.</li>
+<li><strong>Où.</strong> Aux États-Unis.</li>
+<li><strong>Pourquoi.</strong> Pour lire un reçu que les lecteurs de l'appareil et Private Cloud Compute d'Apple n'ont pas pu lire.</li>
+<li><strong>Fondement.</strong> La nécessité du service. DeepInfra déclare ne pas entraîner de modèles avec ce contenu et, lorsque l'option est offerte, n'appliquer aucune conservation.</li>
+</ul>
+<h3>Apple Private Cloud Compute : un lecteur de reçus intégré aux appareils Apple</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> Une image réduite du reçu à lire, sans aucun identifiant de produit. Elle est transitoire. Cela ne vaut que pour les versions de l'application qui l'activent.</li>
+<li><strong>Où.</strong> Apple n'indique pas où elle traite les données.</li>
+<li><strong>Pourquoi.</strong> Pour lire un reçu que les lecteurs de l'appareil n'ont pas pu lire.</li>
+<li><strong>Fondement.</strong> La nécessité du service. Il repose sur les garanties publiées par Apple pour Private Cloud Compute.</li>
+</ul>
+<h3>Sentry : rapports de plantage</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> Des diagnostics d'erreur liés à un identifiant de compte opaque. Aucune adresse IP et aucun contenu de facture.</li>
+<li><strong>Où.</strong> Aux États-Unis.</li>
+<li><strong>Pourquoi.</strong> Pour que le service continue de fonctionner.</li>
+<li><strong>Fondement.</strong> La nécessité du service. Les rapports de plantage ne se désactivent pas depuis l'application, parce que le service ne peut pas repérer et corriger les pannes sans eux.</li>
+</ul>
+<h3>PostHog : statistiques d'utilisation</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> Seulement si vous répondez oui : des compteurs sur l'usage des fonctions, sous un identifiant d'appareil puis, une fois connecté, votre identifiant de compte, avec votre forfait, votre langue et votre adresse IP.</li>
+<li><strong>Où.</strong> Aux États-Unis.</li>
+<li><strong>Pourquoi.</strong> Pour améliorer l'application.</li>
+<li><strong>Fondement.</strong> Votre consentement exprès, désactivé tant que vous ne le donnez pas.</li>
+</ul>
+<h3>RevenueCat : abonnements</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> Dès le lancement : votre identifiant d'utilisateur de l'application (l'identifiant anonyme jusqu'à votre inscription), les données d'achat du magasin d'applications, les données de votre appareil et votre adresse IP.</li>
+<li><strong>Où.</strong> Aux États-Unis.</li>
+<li><strong>Pourquoi.</strong> Pour gérer les abonnements et accorder ou retirer un forfait payant.</li>
+<li><strong>Fondement.</strong> La nécessité du service. Il ne se désactive pas depuis l'application, parce que le service ne peut pas savoir quel forfait vous avez sans lui.</li>
+</ul>
+<h3>Frankfurter : taux de change</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> Une paire de devises et une date, envoyées par notre serveur. Jamais de renseignements personnels.</li>
+<li><strong>Où.</strong> Non indiqué; Frankfurter diffuse les taux de la Banque centrale européenne.</li>
+<li><strong>Pourquoi.</strong> Pour obtenir des taux de change.</li>
+<li><strong>Fondement.</strong> Aucun n'est requis, puisqu'aucun renseignement personnel n'est en cause.</li>
+</ul>
+<h2>4. Les personnes avec qui vous partagez des projets</h2>
+<p>Les autres comptes InvoiceTracker sont aussi une destination, lorsque vous choisissez de partager un projet avec eux.</p>
+<ul>
+<li><strong>Ce qu'elles reçoivent.</strong> Si vous partagez un projet, les personnes avec qui vous le partagez voient votre nom, votre adresse courriel et qui a saisi chaque élément (<code>created_by</code>), ainsi que les lignes partagées. Ce sont d'autres comptes InvoiceTracker, où qu'elles soient. Elles sont choisies par le titulaire du projet et ne sont pas nos sous-traitants.</li>
+<li><strong>Qui répond des données.</strong> Le titulaire du compte qui détient les données est l'organisation responsable. InvoiceTracker est le sous-traitant.</li>
+<li><strong>Si une personne est retirée.</strong> Une personne retirée conserve son propre compte et sa Boîte. Ce qu'elle a classé dans le compte d'une autre personne demeure dans le dossier de ce compte, affiché comme « Ancien membre ».</li>
+<li><strong>Classer, c'est remettre un reçu.</strong> Lorsque vous classez un reçu de votre Boîte dans le projet de quelqu'un d'autre, vous le remettez à ce compte, et l'application vous en avise au moment de classer.</li>
+<li><strong>Supprimer un compte.</strong> Supprimer un compte efface ce que d'autres y ont classé.</li>
+<li><strong>Aucun compte de dépôt.</strong> Il n'existe aucun compte de dépôt où vos données attendent.</li>
+</ul>
+<h2>5. Le consentement aux statistiques et comment le modifier</h2>
+<p>Les statistiques d'utilisation sont désactivées tant que vous ne répondez pas oui. L'application pose la question une fois au premier lancement, avec un choix égal entre oui et non, et ne la repose que lorsque cet avis change d'une façon qui s'y rapporte. Vous pouvez changer votre réponse en tout temps dans Paramètres &gt; Confidentialité. La désactiver arrête toute collecte future depuis votre appareil. Les données déjà envoyées ne peuvent plus être retirées. Répondre non ne limite pas ce que l'application fait pour vous.</p>
+<p>Les rapports de plantage et les services essentiels de la section 3 ne dépendent pas de ce choix. Ils sont nécessaires au fonctionnement du service et sont divulgués dans cet avis.</p>
+<h2>6. Conservation et suppression</h2>
+<ul>
+<li><strong>Vos données</strong> sont conservées tant que votre compte existe. Supprimer votre compte (Paramètres &gt; Supprimer le compte) efface les données du compte sur nos serveurs et sur votre appareil.</li>
+<li><strong>Ce que d'autres ont classé dans votre compte</strong> est effacé avec lui.</li>
+<li><strong>Les images de reçus envoyées pour lecture</strong> sont transitoires. Elles ne sont jamais stockées sur nos serveurs à cette fin et ne sont pas conservées par les lecteurs. Private Cloud Compute d'Apple repose sur les garanties publiées par Apple. DeepInfra n'applique aucun entraînement et, lorsque l'option est offerte, aucune conservation.</li>
+<li><strong>Sentry, PostHog et RevenueCat</strong> conservent les données qu'ils reçoivent selon leurs propres conditions de conservation, comme l'indique notre évaluation de chacun.</li>
+</ul>
+<h2>7. Vos droits et comment nous joindre</h2>
+<p>Vous pouvez demander à consulter les renseignements personnels que nous détenons sur vous, à les faire corriger, à les faire supprimer et à retirer un consentement donné. Écrivez à <strong>Jean Michel Tannous</strong> à <strong>privacy@invoicetracker.app</strong>. Nous répondons dans un délai de 30 jours. Si vous n'êtes pas satisfait, vous pouvez porter plainte auprès de la Commission d'accès à l'information du Québec.</p>
+<h2>8. Modifications de cet avis</h2>
+<p>Lorsque cet avis change d'une façon qui vous importe, son numéro de version augmente et l'application affiche de nouveau l'écran de résumé une fois, à votre prochain lancement.</p>
+<p>Il s'agit de la version 1 de l'avis.</p>
+</body>
+</html>
