@@ -30,7 +30,7 @@ code{font-size:.9em} nav{text-align:right;font-size:.9rem}
 <p>Chaque destination ci-dessous reçoit des renseignements personnels pour la raison indiquée. Seules les statistiques d'utilisation demandent votre consentement. Les autres sont nécessaires au fonctionnement du service : elles sont donc divulguées ici et vous ne les activez ni ne les désactivez. Le partage avec d'autres personnes est traité à la section 4.</p>
 <h3>Supabase : connexion, base de données, stockage et fonctions serveur</h3>
 <ul>
-<li><strong>Ce qu'il reçoit.</strong> Votre courriel et votre mot de passe si vous créez un compte, l'identifiant anonyme créé au lancement, toutes les lignes que vous synchronisez, ainsi que les images et les miniatures de vos reçus.</li>
+<li><strong>Ce qu'il reçoit.</strong> Le courriel avec lequel vous vous connectez (ou votre courriel et votre mot de passe sur un compte plus ancien), l'identité que fournit Apple ou Google quand vous vous connectez avec eux (leur identifiant d'utilisateur, votre courriel et, pour Apple, votre nom), le jeton d'actualisation d'Apple, conservé chiffré pour pouvoir être révoqué quand vous supprimez votre compte, l'identifiant anonyme créé au lancement, toutes les lignes que vous synchronisez, ainsi que les images et les miniatures de vos reçus.</li>
 <li><strong>Où.</strong> Les données sont conservées à Montréal, au Québec. Les fonctions serveur et le soutien du fournisseur peuvent travailler depuis l'extérieur du Québec.</li>
 <li><strong>Pourquoi.</strong> Pour faire fonctionner le service.</li>
 <li><strong>Fondement.</strong> La nécessité du service.</li>
@@ -76,6 +76,20 @@ code{font-size:.9em} nav{text-align:right;font-size:.9rem}
 <li><strong>Où.</strong> Aux États-Unis.</li>
 <li><strong>Pourquoi.</strong> Pour gérer les abonnements et accorder ou retirer un forfait payant.</li>
 <li><strong>Fondement.</strong> La nécessité du service. Il ne se désactive pas depuis l'application, parce que le service ne peut pas savoir quel forfait vous avez sans lui.</li>
+</ul>
+<h3>Apple : Se connecter avec Apple</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> Votre demande de connexion, sur votre appareil. Apple renvoie votre identifiant d'utilisateur Apple, une adresse courriel (une adresse relais si vous cachez la vôtre) et, la première fois seulement, votre nom. Notre serveur échange ensuite le code d'autorisation d'Apple avec Apple, et révoque le jeton obtenu quand vous supprimez votre compte. Cela ne vaut que sur iPhone et iPad, et seulement si vous choisissez Apple pour vous connecter.</li>
+<li><strong>Où.</strong> Aux États-Unis.</li>
+<li><strong>Pourquoi.</strong> Pour vous connecter.</li>
+<li><strong>Fondement.</strong> La nécessité du service.</li>
+</ul>
+<h3>Google : Connexion avec Google</h3>
+<ul>
+<li><strong>Ce qu'il reçoit.</strong> Votre demande de connexion, par le Credential Manager d'Android sur votre appareil. Google renvoie votre identifiant d'utilisateur Google, votre adresse courriel vérifiée et votre nom. Cela ne vaut que sur Android, et seulement si vous choisissez Google pour vous connecter.</li>
+<li><strong>Où.</strong> Aux États-Unis.</li>
+<li><strong>Pourquoi.</strong> Pour vous connecter.</li>
+<li><strong>Fondement.</strong> La nécessité du service.</li>
 </ul>
 <h3>Frankfurter : taux de change</h3>
 <ul>

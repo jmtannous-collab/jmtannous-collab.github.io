@@ -30,7 +30,7 @@ code{font-size:.9em} nav{text-align:right;font-size:.9rem}
 <p>Each destination below receives personal information for the reason given. Only analytics asks for your consent. The others are needed to run the service, so they are disclosed here and are not switched on or off by you. Sharing with other people is covered in section 4.</p>
 <h3>Supabase: sign-in, database, storage and server functions</h3>
 <ul>
-<li><strong>What it receives.</strong> Your email and password if you create an account, the anonymous identifier created at launch, every row you sync, and your receipt images and thumbnails.</li>
+<li><strong>What it receives.</strong> The email you sign in with (or your email and password on an older account), the identity that Apple or Google gives when you sign in with them (their user identifier, your email and, for Apple, your name), Apple's refresh token kept encrypted so it can be revoked when you delete your account, the anonymous identifier created at launch, every row you sync, and your receipt images and thumbnails.</li>
 <li><strong>Where.</strong> The data is kept in Montréal, Québec. Server functions and vendor support may run outside Québec.</li>
 <li><strong>Why.</strong> To run the service.</li>
 <li><strong>Basis.</strong> Service necessity.</li>
@@ -76,6 +76,20 @@ code{font-size:.9em} nav{text-align:right;font-size:.9rem}
 <li><strong>Where.</strong> The United States.</li>
 <li><strong>Why.</strong> To manage subscriptions and grant or withdraw a paid plan.</li>
 <li><strong>Basis.</strong> Service necessity. It is not switched off from the app, because the service cannot tell which plan you have without it.</li>
+</ul>
+<h3>Apple: Sign in with Apple</h3>
+<ul>
+<li><strong>What it receives.</strong> Your sign-in request, on your device. Apple returns your Apple user identifier, an email address (a relay address if you hide yours) and, the first time only, your name. Our server then exchanges Apple's authorization code with Apple, and revokes the resulting token when you delete your account. This applies only on iPhone and iPad, and only if you choose Apple to sign in.</li>
+<li><strong>Where.</strong> The United States.</li>
+<li><strong>Why.</strong> To sign you in.</li>
+<li><strong>Basis.</strong> Service necessity.</li>
+</ul>
+<h3>Google: Google sign-in</h3>
+<ul>
+<li><strong>What it receives.</strong> Your sign-in request, through Android's Credential Manager on your device. Google returns your Google user identifier, your verified email address and your name. This applies only on Android, and only if you choose Google to sign in.</li>
+<li><strong>Where.</strong> The United States.</li>
+<li><strong>Why.</strong> To sign you in.</li>
+<li><strong>Basis.</strong> Service necessity.</li>
 </ul>
 <h3>Frankfurter: exchange rates</h3>
 <ul>
