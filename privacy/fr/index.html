@@ -35,19 +35,13 @@ code{font-size:.9em} nav{text-align:right;font-size:.9rem}
 <li><strong>Pourquoi.</strong> Pour faire fonctionner le service.</li>
 <li><strong>Fondement.</strong> La nécessité du service.</li>
 </ul>
-<h3>Anthropic : lecture d'un reçu</h3>
+<h3>Anthropic : lecture d'un reçu et traduction de sa description</h3>
 <ul>
-<li><strong>Ce qu'il reçoit.</strong> L'image du reçu à lire, envoyée par notre serveur, sans votre identifiant de compte. Elle est transitoire : elle n'est pas conservée.</li>
+<li><strong>Ce qu'il reçoit.</strong> L'image du reçu à lire, et la courte description d'un reçu produite par l'application (200 caractères au plus), pour la mettre en anglais et en français. Notre serveur envoie les deux, sans votre identifiant de compte. La description peut nommer un fournisseur ou un article.</li>
+<li><strong>Combien de temps.</strong> Nous ne stockons ni l'une ni l'autre à cette fin. Selon les conditions publiées par Anthropic, elles sont supprimées dans les 30 jours. Si ses systèmes les signalent en vertu de sa politique d'utilisation, Anthropic les conserve jusqu'à 2 ans et conserve les scores de classification de sécurité jusqu'à 7 ans, et il les conserve plus longtemps lorsque la loi l'exige.</li>
 <li><strong>Où.</strong> Aux États-Unis.</li>
-<li><strong>Pourquoi.</strong> Pour lire un reçu qu'aucune étape de lecture précédente n'a pu lire. Il n'est utilisé que lorsque les lecteurs de l'appareil y renoncent, et pas hors ligne ni au-delà de votre quota.</li>
+<li><strong>Pourquoi.</strong> Pour lire un reçu qu'aucune étape de lecture précédente n'a pu lire, seulement lorsque les lecteurs de l'appareil y renoncent, et pas hors ligne ni au-delà de votre quota. Et pour afficher la description d'un reçu dans la langue de l'application.</li>
 <li><strong>Fondement.</strong> La nécessité du service. Les conditions d'Anthropic lui interdisent d'entraîner des modèles avec ce contenu.</li>
-</ul>
-<h3>DeepInfra : un deuxième lecteur de reçus</h3>
-<ul>
-<li><strong>Ce qu'il reçoit.</strong> L'image du reçu à lire, envoyée par notre serveur, sans votre identifiant de compte. Elle est transitoire : elle n'est pas conservée.</li>
-<li><strong>Où.</strong> Aux États-Unis.</li>
-<li><strong>Pourquoi.</strong> Pour lire un reçu que les lecteurs de l'appareil et Private Cloud Compute d'Apple n'ont pas pu lire.</li>
-<li><strong>Fondement.</strong> La nécessité du service. DeepInfra déclare ne pas entraîner de modèles avec ce contenu et, lorsque l'option est offerte, n'appliquer aucune conservation.</li>
 </ul>
 <h3>Apple Private Cloud Compute : un lecteur de reçus intégré aux appareils Apple</h3>
 <ul>
@@ -122,13 +116,13 @@ code{font-size:.9em} nav{text-align:right;font-size:.9rem}
 <ul>
 <li><strong>Vos données</strong> sont conservées tant que votre compte existe. Supprimer votre compte (Paramètres &gt; Supprimer le compte) efface les données du compte sur nos serveurs et sur votre appareil.</li>
 <li><strong>Ce que d'autres ont classé dans votre compte</strong> est effacé avec lui.</li>
-<li><strong>Les images de reçus envoyées pour lecture</strong> sont transitoires. Elles ne sont jamais stockées sur nos serveurs à cette fin et ne sont pas conservées par les lecteurs. Private Cloud Compute d'Apple repose sur les garanties publiées par Apple. DeepInfra n'applique aucun entraînement et, lorsque l'option est offerte, aucune conservation.</li>
+<li><strong>Les images de reçus envoyées pour lecture et les descriptions envoyées pour traduction</strong> ne sont jamais stockées sur nos serveurs à cette fin. Anthropic les supprime selon les conditions indiquées plus haut. Private Cloud Compute d'Apple repose sur les garanties publiées par Apple.</li>
 <li><strong>Sentry, PostHog, RevenueCat et Resend</strong> conservent les données qu'ils reçoivent selon leurs propres conditions de conservation, comme l'indique notre évaluation de chacun.</li>
 </ul>
 <h2>7. Vos droits et comment nous joindre</h2>
 <p>Vous pouvez demander à consulter les renseignements personnels que nous détenons sur vous, à les faire corriger, à les faire supprimer et à retirer un consentement donné. Écrivez à <strong>Jean Michel Tannous</strong> à <strong>jmtannous+privacy@gmail.com</strong>. Nous répondons dans un délai de 30 jours. Si vous n'êtes pas satisfait, vous pouvez porter plainte auprès de la Commission d'accès à l'information du Québec.</p>
 <h2>8. Modifications de cet avis</h2>
 <p>Lorsque cet avis change d'une façon qui vous importe, son numéro de version augmente et l'application affiche de nouveau l'écran de résumé une fois, à votre prochain lancement.</p>
-<p>Il s'agit de la version 3 de l'avis.</p>
+<p>Il s'agit de la version 4 de l'avis.</p>
 </body>
 </html>
